@@ -1,0 +1,21 @@
+2020-08-12 09:39:57,314 INFO  [log] 2 and 3
+2020-08-12 09:39:57,322 INFO  [log] manoj8@gmail.com
+2020-08-12 09:39:57,326 INFO  [log] manoj
+2020-08-12 09:39:57,326 INFO  [log] patra
+2020-08-12 09:40:07,396 INFO  [log] Status: FINISHED, time taken for TestCase was: 9982 ms
+2020-08-12 09:40:07,412 INFO  [log] Number of test steps which ran: 6
+2020-08-12 09:40:07,723 INFO  [log] 2
+2020-08-12 09:40:07,724 INFO  [log] 1
+2020-08-12 09:40:07,733 INFO  [log] manojp@gmail.com
+2020-08-12 09:40:07,734 INFO  [log] manoj
+2020-08-12 09:40:07,734 INFO  [log] lastname: patra
+2020-08-12 09:40:15,729 INFO  [log] Status: FINISHED, time taken for TestCase was: 7972 ms
+2020-08-12 09:40:15,734 INFO  [log] Number of test steps which ran: 6
+2020-08-12 09:40:15,736 INFO  [log] 2
+2020-08-12 09:40:15,749 INFO  [log] manoj45p@gmail.com
+2020-08-12 09:40:15,749 INFO  [log] manoj
+2020-08-12 09:40:15,750 INFO  [log] lastname: patra
+2020-08-12 09:40:23,723 INFO  [log] Status: FINISHED, time taken for TestCase was: 7943 ms
+2020-08-12 09:40:23,724 INFO  [log] Number of test steps which ran: 6
+2020-08-12 09:40:32,683 INFO  [log] Status: FINISHED, time taken for TestCase was: 8899 ms
+2020-08-12 09:40:32,683 INFO  [log] Number of test steps which ran: 6

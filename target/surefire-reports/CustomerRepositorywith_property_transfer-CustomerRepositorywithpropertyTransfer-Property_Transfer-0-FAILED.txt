@@ -1,0 +1,40 @@
+Status: FAILED
+Time Taken: 289
+Size: 0
+Timestamp: Mon Aug 10 11:11:16 IST 2020
+TestStep: Property Transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Missing match for Target XPath [declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=customerAddressRepositoryV1';
+//result/addresses/item/id]
+
+----------------- Messages ------------------------------
+Performed transfer [customerbyid]
+Error performing transfer [AddressId] - Missing match for Target XPath [declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=customerAddressRepositoryV1';
+//result/addresses/item/id]
+----------------------------------------------------
+customerbyid transferred [[null]] from [Create Customer.Response] to [GetCustomerByID.Request]
+------------ source path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1';
+//*:customerId
+
+
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1';
+//*:customerId
+
+AddressId transferred [[Missing match for Target XPath [declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=customerAddressRepositoryV1';
+//result/addresses/item/id]]] from [Create Customer.Response] to [GetCustomerAddressById.Request]
+------------ source path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1';
+
+//result/addresses/item/id
+
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=customerAddressRepositoryV1';
+//result/addresses/item/id
